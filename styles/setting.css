@@ -1,0 +1,12 @@
+input{
+	width:100%;
+}
+body
+{
+	margin: 0px;
+	width: 150px;
+	height: 100px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+}

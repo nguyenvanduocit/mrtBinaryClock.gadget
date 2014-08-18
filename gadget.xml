@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>mrtBinaryClock</name>
+  <namespace>windows.sdk</namespace>
+  <version>1.0.0.0</version>
+  <author name="Nguyễn Văn Được">
+    <info url="muatocroi.com" />
+    <logo src="images/logo.png" />
+  </author>
+  <copyright>&#169; Mùa Tóc Rối.</copyright>
+  <description>mrtBinaryClock được cung cấp bởi blog Mùa Tóc Rối. Để biết cách xem đồng hồ nhị phân (Binary Clock) bạn vui lòng truy cập http://en.wikipedia.org/wiki/Binary_clock.</description>
+  <icons>
+    <icon height="48" width="48" src="images/icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="main.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="images/icon.png" />
+    </host>
+  </hosts>
+</gadget>
